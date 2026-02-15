@@ -1,5 +1,5 @@
 # bioconvert
-Small, distroless-when-possible container for `bioconvert`.
+Small compatibility-focused container for `bioconvert`.
 
 ## how to use
 ```bash
