@@ -1,7 +1,12 @@
 # bioconvert
-Small compatibility-focused container for `bioconvert`.
+Source-built Picotainers container for `bioconvert`.
 
-## how to use
+## Quick Usage
+
 ```bash
-docker run --rm -v "$(pwd):/data" picotainers/bioconvert:latest --help
+# Pull the image
+docker pull docker.io/picotainers/bioconvert:latest
+
+# Run the tool
+docker run --rm docker.io/picotainers/bioconvert:latest bioconvert --help
 ```
