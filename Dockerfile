@@ -7,6 +7,7 @@ RUN apt-get update \
       build-essential \
       ca-certificates \
       git \
+      zlib1g-dev \
     && git clone --depth 1 https://github.com/bioconvert/bioconvert.git /tmp/bioconvert \
     && python -m pip install --no-cache-dir /tmp/bioconvert \
     && apt-get purge -y --auto-remove build-essential git \
